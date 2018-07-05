@@ -1,0 +1,86 @@
+.ui.attached.segment {
+  top: 0px;
+  bottom: 0px;
+  border-radius: 0px;
+  margin: 0em -1px;
+  width: calc(100% + 2px);
+  max-width: calc(100% + 2px);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #D4D4D5;
+  height: -webkit-fill-available;
+}
+
+b, strong {
+  font-weight: bolder;
+  font-family: Lulo Clean;
+}
+
+i.edit.alternate.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0em 0.25rem 0em 0em;
+  width: 1.18em;
+  height: 1em;
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding-left: 760px;
+}
+
+i.edit.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0em 0.25rem 0em 0em;
+  width: 1.18em;
+  height: 1em;
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding-left: 25px;
+}
+
+i.close.icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0em 0.25rem 0em 0em;
+    width: 1.18em;
+    height: 1em;
+    font-family: 'Icons';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    padding-left: 50px;
+}
+
+i.window.close.icon {
+  padding-left: 760px;
+}
+
+#inputBox {
+  text-transform: capitalize;
+  font-family: 'Bree Serif', serif;
+}

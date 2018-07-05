@@ -34,12 +34,17 @@
     "ember-data": "~3.1.0",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
+    "ember-local-storage": "^1.4.1",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
+    "ember-semantic-ui": "^0.2.0",
     "ember-source": "~3.1.0",
     "ember-welcome-page": "^3.0.0",
     "eslint-plugin-ember": "^5.0.0",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "semantic": "0.0.1",
+    "semantic-ui-ember": "^3.0.3",
+    "ui": "^0.2.4"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"

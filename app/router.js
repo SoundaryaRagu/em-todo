@@ -6,7 +6,13 @@ const Router = EmberRouter.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {
+Router.map(function () {
+  this.route('home');
+  this.route('list', {
+    path: '/list/:lid'
+  }, function() {
+    this.route('task');
+  });
 });
 
 export default Router;
