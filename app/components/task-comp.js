@@ -8,7 +8,6 @@ export default Component.extend({
   isEdited: false,
 
   newName: observer('task.title', function () {
-
     let updatedValue = this.get('task.title'),
       updatedId = this.get('task.id'),
       updatedListId = this.get('task.list.id'),
@@ -33,7 +32,6 @@ export default Component.extend({
   }),
 
   actions: {
-
     editTask: function () {
       this.set('isEdited', 'true');
     },

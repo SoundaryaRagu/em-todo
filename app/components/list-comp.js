@@ -8,7 +8,6 @@ export default Component.extend({
   isEdited: false,
 
   newName: observer('list.title', function () {
-
     let updatedValue = this.get('list.title'),
       updatedId = this.get('list.id'),
       updatedListId = this.get('list.list.id'),
@@ -33,7 +32,6 @@ export default Component.extend({
   }),
 
   actions: {
-
     editList: function () {
       this.set('isEdited', 'true');
     },
@@ -49,5 +47,5 @@ export default Component.extend({
         store.unloadRecord(list);
       });
     }
-    }
+  }
 });
