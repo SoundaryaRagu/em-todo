@@ -8,11 +8,13 @@ const Router = EmberRouter.extend({
 
 Router.map(function () {
   this.route('home');
+
   this.route('list', {
     path: '/list/:lid'
-  }, function() {
+  }, function () {
     this.route('task');
   });
+
 });
 
 export default Router;

@@ -1,0 +1,15 @@
+<div class="ui segment" id={{list.id}}>
+  {{#link-to 'list' list.id}}
+    <a class="item">
+      <b>{{list.title}}
+        <i class="edit icon" {{action 'editList'}}></i>
+        <i class="close icon" {{action 'deleteList'}}></i>
+      </b>
+      <div class="ui divider"></div>
+    </a>
+  {{/link-to}}
+</div>
+{{#if isEdited}}
+  {{#ui-input value=list.title type="text" id="inputBox"}}
+{{/ui-input}}<i class="close icon" id="cl"></i>
+{{/if}}

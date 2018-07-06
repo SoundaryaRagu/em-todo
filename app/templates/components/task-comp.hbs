@@ -1,0 +1,13 @@
+<div class="ui divider"></div>
+<div class="ui segment" id={{task.id}}>
+  <a class="item">
+    <b>{{task.title}}
+      <i class="edit alternate icon" {{action 'editTask'}}></i>
+      <i class="window close icon" {{action 'deleteTask'}}></i></b>
+    <div class="ui divider"></div>
+  </a>
+</div>
+{{#if isEdited}}
+    {{#ui-input value = task.title type="text" id="inputBox" focus=true}}{{/ui-input}}
+  <i class="close icon" id="cl"></i>
+{{/if}}
