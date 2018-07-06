@@ -26,14 +26,18 @@ export default Component.extend({
           }
         }
       };
+
     TodoList.updateTask(updatedId, newtasks);
     $('#inputBox').remove();
     $('#cl').remove();
   }),
+
   actions: {
+
     editTask: function () {
       this.set('isEdited', 'true');
     },
+
     deleteTask: function () {
       let taskKeyId = this.get('task.id'),
         store = this.get('store');

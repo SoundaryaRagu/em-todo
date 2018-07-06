@@ -43,14 +43,11 @@ export default Component.extend({
       let listKeyId = this.get('list.id'),
         store = this.get('store');
 
-        TodoList.deleteLists(listKeyId);
+      TodoList.deleteLists(listKeyId);
 
-        store.findRecord('list', listKeyId).then(function (list) {
-          store.unloadRecord(list);
-        });
-      }
-      // removeInput: function() {
-      //
-      // }
+      store.findRecord('list', listKeyId).then(function (list) {
+        store.unloadRecord(list);
+      });
+    }
     }
 });

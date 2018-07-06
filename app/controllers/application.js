@@ -5,9 +5,7 @@ export default Controller.extend({
   actions: {
 
     home: function () {
-
       this.transitionToRoute('/home');
-
     }
   }
 

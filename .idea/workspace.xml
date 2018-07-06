@@ -2,48 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee68f57f-a95e-4db2-88c4-a771d5f6f2db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/node_modules_em_todo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/list-comp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/task-comp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/list/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/list/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/list-comp.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/components/task-comp.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/list.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/list/task.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/todo-ember.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/em-todo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/components/list-comp-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/components/task-comp-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/controllers/application-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/controllers/home-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/controllers/list-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/controllers/list/task-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/models/list-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/models/task-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/routes/application-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/routes/home-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/routes/list-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/routes/list/task-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/utils/todo-ember-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/list-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/list-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/task-comp.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/task-comp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bower_components.ember-try/" />
     <ignored path="$PROJECT_DIR$/.node_modules.ember-try/" />
@@ -59,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/list.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1425">
@@ -71,20 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/list.hbs">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="125">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task-comp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/task-comp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -94,6 +65,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
               <caret line="113" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-comp.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/list-comp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -161,12 +141,8 @@
         <option value="$PROJECT_DIR$/app/templates/components/list-comp.hbs" />
         <option value="$PROJECT_DIR$/app/templates/list/task.hbs" />
         <option value="$PROJECT_DIR$/app/templates/components/task-comp.hbs" />
-        <option value="$PROJECT_DIR$/app/components/list-comp.js" />
-        <option value="$PROJECT_DIR$/app/components/task-comp.js" />
         <option value="$PROJECT_DIR$/app/routes/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/list.js" />
-        <option value="$PROJECT_DIR$/app/controllers/application.js" />
-        <option value="$PROJECT_DIR$/app/controllers/home.js" />
         <option value="$PROJECT_DIR$/app/models/list.js" />
         <option value="$PROJECT_DIR$/app/models/task.js" />
         <option value="$PROJECT_DIR$/app/utils/todo-ember.js" />
@@ -177,6 +153,10 @@
         <option value="$PROJECT_DIR$/app/styles/app.css" />
         <option value="$PROJECT_DIR$/app/routes/list.js" />
         <option value="$PROJECT_DIR$/app/routes/list/task.js" />
+        <option value="$PROJECT_DIR$/app/controllers/home.js" />
+        <option value="$PROJECT_DIR$/app/controllers/application.js" />
+        <option value="$PROJECT_DIR$/app/components/task-comp.js" />
+        <option value="$PROJECT_DIR$/app/components/list-comp.js" />
       </list>
     </option>
   </component>
@@ -379,12 +359,12 @@
       <workItem from="1530358472885" duration="4652000" />
       <workItem from="1530603117522" duration="158000" />
       <workItem from="1530603324396" duration="6323000" />
-      <workItem from="1530784113491" duration="3622000" />
+      <workItem from="1530784113491" duration="3906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29031000" />
+    <option name="totallyTimeSpent" value="29315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
@@ -626,38 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/list-comp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/task-comp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="18" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/list/task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -709,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -725,6 +670,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/home.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/list/task.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -750,6 +702,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -757,6 +716,27 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/task-comp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/list-comp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>
